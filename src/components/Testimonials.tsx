@@ -16,7 +16,7 @@ const Testimonials = () => {
       age: 72,
       location: "Florida",
       text: "I never thought I'd learn to use a computer at my age, but the Technology Basics course was perfect. The instructor was patient and the materials were easy to follow.",
-      image: "https://images.unsplash.com/photo-1581579438747-20eecd8c438b",
+      image: "https://images.unsplash.com/photo-1581579438747-20eecd8c438b?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
       stars: 5
     },
     {
@@ -24,7 +24,7 @@ const Testimonials = () => {
       age: 68,
       location: "Arizona",
       text: "The Digital Photography course rekindled my passion for taking pictures. Now I can edit my photos and share them with my grandchildren online!",
-      image: "https://images.unsplash.com/photo-1533083136474-3f4305f5b8ae",
+      image: "https://images.unsplash.com/photo-1533083136474-3f4305f5b8ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
       stars: 5
     },
     {
@@ -32,7 +32,7 @@ const Testimonials = () => {
       age: 65,
       location: "Michigan",
       text: "After retirement, I felt lost. The Creative Writing course gave me purpose and connected me with other seniors who share my interests.",
-      image: "https://images.unsplash.com/photo-1505391507565-a41aa7fbbab4",
+      image: "https://images.unsplash.com/photo-1505391507565-a41aa7fbbab4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
       stars: 5
     }
   ];
