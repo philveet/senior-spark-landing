@@ -36,7 +36,8 @@ const Index = () => {
       </div>
       
       {/* Add custom styles for the site */}
-      <style jsx>{`
+      <style>
+        {`
         @keyframes fade-in {
           from { opacity: 0; transform: translateY(20px); }
           to { opacity: 1; transform: translateY(0); }
@@ -146,7 +147,8 @@ const Index = () => {
             font-size: 2rem;
           }
         }
-      `}</style>
+        `}
+      </style>
     </div>
   );
 };
