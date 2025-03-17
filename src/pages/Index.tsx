@@ -21,13 +21,13 @@ const Index = () => {
       </main>
       <Footer />
       
-      {/* Accessibility features */}
-      <div className="fixed bottom-6 right-6 z-50">
+      {/* Accessibility features - now more mobile-friendly */}
+      <div className="fixed bottom-4 sm:bottom-6 right-4 sm:right-6 z-50">
         <button 
           aria-label="Accessibility options" 
-          className="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:bg-primary/90 transition-colors"
+          className="w-12 h-12 sm:w-14 sm:h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:bg-primary/90 transition-colors"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="sm:w-6 sm:h-6">
             <circle cx="12" cy="12" r="10"/>
             <path d="m17.8 9-8 8"/>
             <path d="m6.2 9 8 8"/>
